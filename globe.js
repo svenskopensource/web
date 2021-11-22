@@ -177,7 +177,7 @@ function App(conf) {
     plane = new THREE.Points(geometry, material);
 
 
-    var number = 3600 /3;
+    var number = 3699 /3;
     let randoms = new Float32Array(number);
     let colorRandoms = new Float32Array(number);
 
