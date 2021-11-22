@@ -11,7 +11,7 @@ $currentPath = pwd
 cd dist
 
 # if you are deploying to a custom domain
-# echo 'domain.com' > CNAME
+echo 'beta.svenskopensource.se' > CNAME
 
 git init
 git add -A
