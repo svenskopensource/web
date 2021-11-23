@@ -153,6 +153,7 @@ function App(conf) {
 
   function initScene() {
     scene = new THREE.Scene();
+    //scene.background = new THREE.Color(0xff1111);
     //initLights();
 
     geometry = new THREE.SphereBufferGeometry(10,40,30);
@@ -162,7 +163,7 @@ function App(conf) {
     material = new THREE.ShaderMaterial({
       uniforms: {
         time: { value: 0},
-        resolution: { value : new THREE.Vector4()},
+        //resolution: { value : new THREE.Vector4()},
         uColor1: { value: new THREE.Color(0xffc300)},
         uColor2: { value: new THREE.Color(0xffd60a)},
         uColor3: { value: new THREE.Color(0x1954ec)}
@@ -178,7 +179,8 @@ function App(conf) {
     plane = new THREE.Points(geometry, material);
 
 
-    var number = 3699 /3;
+    console.log(geometry);
+    var number = geometry.index.array.length;
     let randoms = new Float32Array(number);
     let colorRandoms = new Float32Array(number);
 

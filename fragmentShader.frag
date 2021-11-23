@@ -1,6 +1,6 @@
 export const fragmentShader = `
 uniform float time;
-uniform vec2 resolution;
+//uniform vec2 resolution;
 
 uniform vec3 uColor1;
 uniform vec3 uColor2;
@@ -19,10 +19,10 @@ void main()	{
     if(vColorRandoms > .66) {
         finalColor = uColor3;
     }
-    float x = mod(time + gl_FragCoord.x, 20.) < 10. ? 1. : 0.;
-    float y = mod(time + gl_FragCoord.y, 20.) < 10. ? 1. : 0.;
-    gl_FragColor = vec4(finalColor, 1.0);
-    gl_FragColor = vec4(finalColor, disc);
+    //float x = mod(time + gl_FragCoord.x, 20.) < 10. ? 1. : 0.;
+    //float y = mod(time + gl_FragCoord.y, 20.) < 10. ? 1. : 0.;
+    //gl_FragColor = vec4(finalColor, 1.0);
+    gl_FragColor =  vec4(finalColor, disc);
 }
 
 `;
