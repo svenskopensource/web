@@ -32,6 +32,7 @@ function App(conf) {
   const TMath = THREE.Math;
   let geometry, plane, material;
   let composer;
+  let running = true;
 
 
 
@@ -60,7 +61,18 @@ function App(conf) {
     camera = new THREE.PerspectiveCamera(conf.fov);
     camera.position.z = conf.cameraZ;
     renderer.setPixelRatio(window.devicePixelRatio);
-    console.log("init", el);
+
+    let callbacker = (x) => {
+      var oe = x[0];
+      if(oe.isIntersecting) {
+        running = true;
+      } else {
+        running = false;
+      }
+    }
+    
+    let observer = new IntersectionObserver(callbacker, {threshold: 0.1});
+    observer.observe(el);
     //const OrbitControl = oc(camera, el);
     // controls = new OrbitControls( camera, el );
 //     controls.enableDamping = true
@@ -205,16 +217,10 @@ function App(conf) {
 
 
   function animate() {
-    //requestAnimationFrame(animate);
-
-    //animatePlane();
-    rotate();
-    //animateLights();
-
-    //controls.update();
-    //renderer.render(scene, camera);
-    composer.render();
-
+    if(running) {
+      rotate();
+      composer.render();
+    }
   };
 
   function rotate() {
