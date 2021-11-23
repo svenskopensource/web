@@ -26,6 +26,7 @@ section {
   justify-content: center;
   /* align-items: center; */
   flex-direction: column;
+  position: relative;
 }
 
 #second {
@@ -64,6 +65,7 @@ section {
   display: flex;
   position: relative;
   flex-direction: column;
+  z-index: 4;
 }
 
 .card img {
