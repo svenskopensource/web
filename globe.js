@@ -60,6 +60,7 @@ function App(conf) {
     camera = new THREE.PerspectiveCamera(conf.fov);
     camera.position.z = conf.cameraZ;
     renderer.setPixelRatio(window.devicePixelRatio);
+    console.log("init", el);
     //const OrbitControl = oc(camera, el);
     // controls = new OrbitControls( camera, el );
 //     controls.enableDamping = true
