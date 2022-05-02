@@ -12,15 +12,32 @@ h1 {
 h1,
 h2,
 h3 {
-  font-family: "Noto Serif", serif;
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h4 {
+  
+  margin-bottom: .2em;
+}
+
+p,h4 {
+font-size: 17px;
+  line-height: 1.5em;
+}
+
+h4 + p {
+  margin-top: .2em;
 }
 
 section {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 #first {
-  background-color: #000000;
+  /* background-color: #000000; */
+  background-color: #1D1041;
   color: white;
   display: flex;
   justify-content: center;
@@ -30,18 +47,28 @@ section {
 }
 
 #second {
-  background: #eee9d6;
+  /* background: #eee9d6; */
+  background: #1D1041;
   display: flex;
   flex-direction: column;
 }
 
 #third {
-  background: black;
+  background: white;
+}
+
+#s4 {
+  background-color: #1D1041;
+  color: white;
 }
 
 .content {
   padding: 40px;
   z-index:3;
+}
+
+.t2 {
+  color: white;
 }
 
 .flower {
@@ -68,8 +95,35 @@ section {
   z-index: 4;
 }
 
+.card.t2 {
+  background: #1D1041;
+}
+
 .card img {
   max-height: 100px;
+}
+
+
+
+.partnerinfo {
+  background-color: #1D1041;
+  min-height: 700px;
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.partnerpositioner img {
+  max-width: 100%;
+}
+
+.horizontal-list {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 }
 
 .btn {
@@ -134,7 +188,18 @@ section {
 
 }
 
+.logo {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
 @media (min-width: 992px) {
+  .logo {
+    max-width: 50%;
+  }
   .card {
     max-width: calc(100vw / 2);
     flex-direction: row;
@@ -171,4 +236,23 @@ section {
     margin-top: -50px;
     flex: 1 1;
   }
+
+  .columns-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .columns-2 > div {
+    width: 50%;
+   
+  }
+
+  h1,
+h2,
+h3 {
+  font-size: 40px;
+}
+  
 }
