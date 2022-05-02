@@ -62,16 +62,15 @@ function App(conf) {
     camera.position.z = conf.cameraZ;
     renderer.setPixelRatio(window.devicePixelRatio);
 
-    let callbacker = (x) => {
+   
+    let observer = new IntersectionObserver((x) => {
       var oe = x[0];
       if(oe.isIntersecting) {
         running = true;
       } else {
         running = false;
       }
-    }
-    
-    let observer = new IntersectionObserver(callbacker, {threshold: 0.1});
+    }, {threshold: 0.1});
     observer.observe(el);
     //const OrbitControl = oc(camera, el);
     // controls = new OrbitControls( camera, el );
@@ -190,8 +189,6 @@ function App(conf) {
     //material = mat;
     plane = new THREE.Points(geometry, material);
 
-
-    console.log(geometry);
     var number = geometry.index.array.length;
     let randoms = new Float32Array(number);
     let colorRandoms = new Float32Array(number);
