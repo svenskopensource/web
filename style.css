@@ -164,12 +164,30 @@ section {
 
 .btn {
   padding: 10px 20px;
-  background-color: white;
+  background-color: #ffde23;
   color: black;
-  border: 1px solid rgb(218, 218, 218);
+  /* border: 1px solid rgb(218, 218, 218); */
   text-decoration: none;
-  box-shadow: 0 0 5px rgb(221, 221, 221);
   display: inline-block;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.hidden {
+  display: none;
+}
+.btn.txt {
+  background-color: transparent;
+  /* color: inherit; */
+  color: #ffde23;
+  padding: 0;
+}
+
+.ph-2 {
+  padding: 0 8px;
+}
+
+.btn.txt:hover {
+  text-decoration: underline;
 }
 
 .btn-link {

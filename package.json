@@ -7,7 +7,8 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2.6.4"
+    "vite": "^2.6.4",
+    "vite-plugin-md": "^0.13.0"
   },
   "dependencies": {
     "postprocessing": "^6.23.2",
