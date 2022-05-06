@@ -1,6 +1,6 @@
 import"./globe.a7885a3f.js";import"./vendor.2f0b8dd2.js";const e=`<h1>FAQ</h1>
 <h3>\u{1F449} Hur mycket av pengarna g\xE5r till \xE4ndam\xE5let?</h3>
-<p>\xC4ven fast vi inte har ett 90-konto t\xE4nker vi efterstr\xE4va samma krav. Kostnader f\xF6r administration och insamling f\xE5r max utg\xF6ra 25% av int\xE4kterna.
+<p>\xC4ven om vi inte har ett 90-konto t\xE4nker vi efterstr\xE4va samma krav. Kostnader f\xF6r administration och insamling f\xE5r max utg\xF6ra 25% av int\xE4kterna.
 Detta garanterar vi i de partneravtal vi skriver. V\xE5rt m\xE5l \xE4r att administration och insamlingskostnader \xE4r s\xE5 l\xE5ga som m\xF6jligt.</p>
 <h2>Partnerf\xF6retag</h2>
 <h3>\u{1F449} Vad kr\xE4vs av oss?</h3>
@@ -35,7 +35,7 @@ L\xE4s v\xE5ra etiska riktlinjer f\xF6r insamling (l\xE4nk)</p>
 <p>Om n\xE5gon forkar ditt projekt beh\xF6ver den personen ans\xF6ka om att bli sponsrad. Din sponsring p\xE5verkas inte.</p>
 <h3>\u{1F449} Hur f\xF6rdelas pengar bland de utvecklare som \xE4r sponrade? F\xE5r alla samma belopp?</h3>
 <p>Sponsorbeloppet justeras enligt flera faktorer.
-Dels s\xE5 kan en partner v\xE4lja att vikta sin sponsring s\xE5 att mer st\xF6d g\xE5r till vissa kategorier och ekosystem, t.ex. &quot;.net&quot;, &quot;erlang&quot; eller &quot;game development&quot;.
+Dels kan en partner v\xE4lja att vikta sin sponsring s\xE5 att mer st\xF6d g\xE5r till vissa kategorier och ekosystem, t.ex. &quot;.net&quot;, &quot;erlang&quot; eller &quot;game development&quot;.
 Beloppet justeras ocks\xE5 beroende p\xE5 ditt engagemang i projektet, aktivitetniv\xE5 och projektets omfattning.</p>
 <p>Skiss f\xF6rdelningsexempel, b\xF6r vara fl\xF6desschema:</p>
 <p>Pengar f\xF6redlas p\xE5 f\xF6ljande s\xE4tt:
@@ -67,6 +67,5 @@ Det finns 10 anslutna utvecklare. 2 inom .NET och 4 inom JS och 4 \xF6vriga.</p>
 <li>V\xE5ra ambassad\xF6rer b\xF6r dela v\xE5r syn p\xE5 etik och inte sj\xE4lva ha samarbeten med f\xF6retag eller organisationer enligt ovan.</li>
 <li>Vi tar inte emot g\xE5vor fr\xE5n politiska partier, d\xE5 vi inte vill riskera att det kan uppfattas som att vi skulle styras av politiska intressen. Undantag \xE4r minnesg\xE5vor och anm\xE4lningsavgifter till event.</li>
 </ul>
-<p>Svensk Open Source kan ocks\xE5 neka till en g\xE5va om g\xE5vogivarens v\xE4rderingar eller verksamhet st\xE5r i strid med organisationens v\xE4rderingar samt om g\xE5vans ursprung strider mot riktlinjerna. Svensk Open Source kan \xE4ven tacka nej till en g\xE5va om den \xE4r f\xF6renad med villkor som Svensk Open Source inte kan uppfylla eller om kostnaderna f\xF6r g\xE5van inte st\xE5r i rimlig proportion till g\xE5van i sig.</p>
 `;document.getElementById("faq").innerHTML=e;
-//# sourceMappingURL=faq.29e55c11.js.map
+//# sourceMappingURL=faq.dcf2d141.js.map
