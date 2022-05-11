@@ -258,6 +258,13 @@ a {
   font-size: 20px;
 }
 
+code {
+  background: #ffffff24;
+  border-radius: 3px;
+  padding: 2px 6px;
+  font-size: .9em;
+}
+
 @media (min-width: 992px) {
   .partnerinfo {
     padding: 60px;

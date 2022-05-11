@@ -1,7 +1,7 @@
 # FAQ
 
 ### 👉 Hur mycket av pengarna går till ändamålet?
-Även fast vi inte har ett 90-konto tänker vi eftersträva samma krav. Kostnader för administration och insamling får max utgöra 25% av intäkterna.
+Även om vi inte har ett 90-konto tänker vi eftersträva samma krav. Kostnader för administration och insamling får max utgöra 25% av intäkterna.
 Detta garanterar vi i de partneravtal vi skriver. Vårt mål är att administration och insamlingskostnader är så låga som möjligt.
 
 ## Partnerföretag
@@ -43,9 +43,9 @@ Personen behöver vara svensk medborgare, men projektet behöver inte vara "sven
 ### 👉 Vilken motprestation måste jag göra för att bli sponsrad?
 
 För att bli sponsrad måte man göra en motprestation. Det allra vanligast är att presentera sponsorer på projektets GitHub-sida eller hemsida.
-Du får en unik url och bild som automatiskt visar dina sponsorer.
+Du får en unik url och bild som automatiskt visar dina sponsorer, exempel: `https://img.svenskopensource.se/sponsors/[username]`
 
-Om inbäddning inte är möjlig på projekt så utforskar vi möjliga kompromiser tillsammans med utvecklare. Nivån av sponsring kan justeras för att passa den motprestation som är möjlig.
+Om inbäddning inte är möjlig på projekt så utforskar vi möjliga kompromiser tillsammans med utvecklaren i fråga. Nivån av sponsring kan justeras för att passa den motprestation som är möjlig.
 
 ### 👉 Hur betalas pengarna ut?
 
@@ -65,31 +65,30 @@ Om någon forkar ditt projekt behöver den personen ansöka om att bli sponsrad.
 ### 👉 Hur fördelas pengar bland de utvecklare som är sponrade? Får alla samma belopp?
 
 Sponsorbeloppet justeras enligt flera faktorer.
-Dels så kan en partner välja att vikta sin sponsring så att mer stöd går till vissa kategorier och ekosystem, t.ex. ".net", "erlang" eller "game development".
+Dels kan en partner välja att vikta sin sponsring så att mer stöd går till vissa kategorier och ekosystem, t.ex. ".net", "erlang" eller "game development".
 Beloppet justeras också beroende på ditt engagemang i projektet, aktivitetnivå och projektets omfattning.
 
+Utkast på fördelning av medel, säsong 1:
 
-Skiss fördelningsexempel, bör vara flödesschema:
-
-Pengar föredlas på följande sätt:
-Bolag A ansluter sig som partner, 100 000kr/år.
-Bolag A anmäler ett speciellt intresse i (.NET och Javascript.)
+Pengar föredlas på följande sätt:  
+Bolag A ansluter sig som partner, 100 000kr/år.  
+Bolag A anmäler ett speciellt intresse i (.NET och Javascript.)  
 Det finns 10 anslutna utvecklare. 2 inom .NET och 4 inom JS och 4 övriga.
 
-50% av beloppet går till den den "allmäna fördelningen". 50 000kr
-50% fördelas enligt intresse-viktning: 25 000 .NET och 25 000 Javascript.
+50% av beloppet går till den den "allmäna fördelningen". 50 000kr  
+50% fördelas enligt intresse-viktning: 25 000 .NET och 25 000 Javascript.  
 
-I exmeplet får alla anslutna utvecklare lika delar av den allmänga fördelningen. I säsong två sker viktning Låg/Medel/Hög för att särskilja projekts dignitet / verkhöjd.
+I exmeplet får alla anslutna utvecklare lika delar av den allmänga fördelningen. I säsong två sker viktning Låg/Medel/Hög för att särskilja projekts dignitet / verkhöjd.  
 50 000kr / 10 utecklare = 5 000kr / utvecklare
 
-+ Intressefördelning:
-25 000kr .net / 2 .net utvecklare = +12 500 kr / .net utvecklare
-25 000kr .js / 4 .js utvecklare = +6 250 kr / .js utvecklare
+\+ Intressefördelning:  
+* 25 000kr .net / 2 .net utvecklare = +12 500 kr / .net utvecklare  
+* 25 000kr .js / 4 .js utvecklare = +6 250 kr / .js utvecklare  
 
 Total sponsring:
 
-5000 kr + 12 500kr = 17 500kr per .net utvecklare per år
-5000 kr + 6 250kr = 11 250kr per .js utvecklare per år
+* 5000 kr + 12 500kr = **17 500kr per .net utvecklare per år**
+* 5000 kr + 6 250kr = **11 250kr per .js utvecklare per år**  
 
 Från bolag A.
 
@@ -104,12 +103,10 @@ Svensk Open Source tar inte emot gåvor från och samarbetar inte med företag e
 
 * medverkar i olaglig, korrupt eller oetisk verksamhet eller är utsatt för sanktioner från FN, EU eller USA.
 * har sin verksamhet inom vapen- eller pornografibranschen.
-* har sin huvudsakliga verksamhet inom alkohol- eller tobak- eller spelbranschen (undantaget spelformen ”spel för allmännyttiga ändamål”).
+* har sin huvudsakliga verksamhet inom alkohol- eller tobak- eller gambling- eller casinobranschen (undantaget ”spel för allmännyttiga ändamål”).
 * Vi återbetalar pengar om det kommer till vår vetskap att vi har fått in gåvor från företag eller organisationer som beskrivs enligt ovan.
 * Våra ambassadörer bör dela vår syn på etik och inte själva ha samarbeten med företag eller organisationer enligt ovan.
 * Vi tar inte emot gåvor från politiska partier, då vi inte vill riskera att det kan uppfattas som att vi skulle styras av politiska intressen. Undantag är minnesgåvor och anmälningsavgifter till event.
-
-Svensk Open Source kan också neka till en gåva om gåvogivarens värderingar eller verksamhet står i strid med organisationens värderingar samt om gåvans ursprung strider mot riktlinjerna. Svensk Open Source kan även tacka nej till en gåva om den är förenad med villkor som Svensk Open Source inte kan uppfylla eller om kostnaderna för gåvan inte står i rimlig proportion till gåvan i sig.
 
 
 
