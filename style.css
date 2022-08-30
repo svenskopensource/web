@@ -18,17 +18,17 @@ h3 {
 }
 
 h4 {
-  
-  margin-bottom: .2em;
+  margin-bottom: 0.2em;
 }
 
-p,h4 {
-font-size: 17px;
+p,
+h4 {
+  font-size: 17px;
   line-height: 1.5em;
 }
 
 h4 + p {
-  margin-top: .2em;
+  margin-top: 0.2em;
 }
 
 section {
@@ -37,7 +37,7 @@ section {
 
 #first {
   /* background-color: #000000; */
-  background-color: #1D1041;
+  background-color: #1d1041;
   color: white;
   display: flex;
   justify-content: center;
@@ -48,7 +48,7 @@ section {
 
 #second {
   /* background: #eee9d6; */
-  background: #1D1041;
+  background: #1d1041;
   display: flex;
   flex-direction: column;
 }
@@ -58,11 +58,9 @@ section {
 }
 
 #s4 {
-  background-color: #1D1041;
+  background-color: #1d1041;
   color: white;
 }
-
-
 
 .t2 {
   color: white;
@@ -78,7 +76,7 @@ section {
 }
 
 .flower img {
-  width:100%;
+  width: 100%;
 }
 
 .card {
@@ -93,7 +91,7 @@ section {
 }
 
 .card.t2 {
-  background: #1D1041;
+  background: #1d1041;
 }
 
 .card img {
@@ -107,8 +105,7 @@ section {
   background: #ffffff08;
   padding: 20px 40px;
   border-radius: 10px;
-  margin-top:60px;
-  
+  margin-top: 60px;
 }
 
 .picture-box .portrait {
@@ -116,7 +113,6 @@ section {
   max-height: 120px;
   max-width: 120px;
   border-radius: 50%;
-  
 }
 
 .picture-box div {
@@ -141,9 +137,8 @@ section {
   text-decoration: underline;
 }
 
-
 .partnerinfo {
-  background-color: #1D1041;
+  background-color: #1d1041;
   min-height: 700px;
   color: white;
   padding: 20px;
@@ -156,7 +151,7 @@ section {
 
 .horizontal-list {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -192,7 +187,7 @@ section {
 
 .btn-link {
   padding: 10px 20px;
-  color:white;
+  color: white;
   text-decoration: none;
   display: inline-block;
 }
@@ -227,7 +222,7 @@ section {
 .sub .btn {
   align-self: center;
   flex: 0 0 auto;
-  margin-top:auto;
+  margin-top: auto;
   padding: 10px 20px;
 }
 
@@ -239,7 +234,6 @@ section {
   height: 500px;
   pointer-events: none;
   z-index: 1;
-
 }
 
 .logo {
@@ -251,7 +245,7 @@ a {
 }
 .content {
   padding: 20px;
-  z-index:3;
+  z-index: 3;
 }
 
 #faq h3 {
@@ -262,7 +256,11 @@ code {
   background: #ffffff24;
   border-radius: 3px;
   padding: 2px 6px;
-  font-size: .9em;
+  font-size: 0.9em;
+}
+
+ol li {
+  padding-bottom: 12px;
 }
 
 @media (min-width: 992px) {
@@ -274,7 +272,7 @@ code {
   }
   .content {
     padding: 40px;
-    z-index:3;
+    z-index: 3;
   }
   .logo {
     max-width: 50%;
@@ -283,7 +281,7 @@ code {
     max-width: calc(100vw / 1.7);
     flex-direction: row;
     margin: 50px 50px;
-    padding: 20px 60px
+    padding: 20px 60px;
   }
 
   .card img {
@@ -323,16 +321,14 @@ code {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  
+
   .columns-2 > div {
     width: 50%;
-   
   }
 
   h1,
-h2,
-h3 {
-  font-size: 40px;
-}
-  
+  h2,
+  h3 {
+    font-size: 40px;
+  }
 }
